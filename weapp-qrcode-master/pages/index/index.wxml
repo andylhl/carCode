@@ -1,0 +1,12 @@
+<!--pages/index/index.wxml-->
+<view class='input-wrapper'>
+  <input bindinput="iphoneInput" maxlength="11" type="number" name="phone" placeholder="请输入手机号" value='{{iphone}}' />
+</view>
+
+<view class='input-wrapper'>
+  <input bindinput="carNumberInput" maxlength="7" type="text" name="carNumber" placeholder="请输入车牌号" value='{{carNumber}}' />
+</view>
+
+<view bindtap="submitButton" class="qrCode">
+  <text>一键生成二维码</text>
+</view>

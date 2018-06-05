@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/qrCode/qrCode",
+    "pages/useInComponent/useInComponent"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  }
+}
